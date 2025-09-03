@@ -125,3 +125,90 @@ body {
     white-space: pre-line;
 }
 
+
+@media (max-width: 768px) {
+
+    body {
+        padding-top: 140px; /* Más espacio arriba para bajar todo el contenido */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        background-color: #000;
+        font-family: Arial, sans-serif;
+    }
+
+    #menu-button {
+        position: fixed; /* Que siempre esté visible en pantalla */
+        top: 15px;       /* Ajusta según te guste */
+        right: 15px;
+        width: 40px;
+        height: 40px;
+        z-index: 10000;   /* Encima de todo */
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: white;
+    }
+
+    #menu-button img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+  .image-container {
+  width: 100%;          /* Ocupa todo el ancho disponible */
+  max-width: 400px;     /* Máximo ancho para no estirarse demasiado */
+  margin: 550px auto 0 auto; /* Centra la imagen y baja un poco */
+  aspect-ratio: 1 / 1;  /* Mantiene proporción cuadrada */
+  overflow: hidden;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%;          /* Imagen toma todo el ancho del contenedor */
+  height: auto;         /* Mantiene proporción natural de la imagen */
+  object-fit: contain;  /* Imagen completa sin recorte */
+}
+
+
+
+    .typewriter-container {
+        color: #e0e0e081;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.6;
+        white-space: pre-line;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+    #link-foto {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .mi-elemento {
+  animation: nombreAnimacion 3s infinite alternate;
+}
+
+}
+
+
