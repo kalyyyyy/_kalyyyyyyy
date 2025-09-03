@@ -139,7 +139,7 @@ body {
     }
 
     #menu-button {
-        position: fixed; /* Que siempre esté visible en pantalla */
+        position: absolute; /* Que siempre esté visible en pantalla */
         top: 15px;       /* Ajusta según te guste */
         right: 15px;
         width: 40px;
@@ -211,6 +211,7 @@ body {
 }
 
 }
+
 
 
 
