@@ -120,4 +120,60 @@ h3 {
     width: 40px; /* Ajusta el tamaño según lo necesites */
     height: auto;
     border-radius: 50%; /* Esto hace que la imagen sea circular */
+
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px 15px 20px 15px;
+  }
+
+  header {
+    padding: 20px;
+    justify-content: space-between;
+  }
+
+  #menu-button {
+    top: 15px;
+    right: 15px;
+  }
+
+  #link-foto {
+    top: 15px;
+    left: 15px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .image-container {
+    width: 100%;
+  }
+
+  .gallery-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 10px;
+  }
+
+  .photo-container {
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  .dropdown {
+    width: 90%;
+    right: 5%;
+    top: 60px;
+  }
+
+  .dropdown-content a {
+    text-align: right;
+  }
 }
