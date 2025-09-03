@@ -97,4 +97,56 @@ img {
     width: 50px; /* Ajusta el tamaño según lo necesites */
     height: auto;
     border-radius: 50%; /* Esto hace que la imagen sea circular */
+
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .left, .center, .right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #menu-button {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 10000;
+    }
+
+    .dropdown {
+        width: 90%;
+        right: 5%;
+        top: 60px;
+    }
+
+    #link-foto {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+
+    #foto-pequeña {
+        width: 40px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .dropdown-content a {
+        text-align: right;
+    }
 }
