@@ -147,4 +147,84 @@ body {
     width: 50px; /* Ajusta el tamaño según lo necesites */
     height: auto;
     border-radius: 50%; /* Esto hace que la imagen sea circular */
+
+}
+
+
+@media (max-width: 768px) {
+
+    body {
+        flex-direction: column;
+        padding: 15px;
+        height: auto;
+        align-items: stretch;
+    }
+
+    .container {
+        flex-direction: column;
+        margin: 10px 0;
+        align-items: center;
+    }
+
+    .left-container {
+        margin-right: 0;
+        align-items: center;
+    }
+
+   .floating-image {
+    position: static;
+    margin-top: 80px; /* Más margen arriba */
+    margin-bottom: 40px;
+    width: 150px;
+    left: auto; /* Para evitar problemas */
+}
+
+    .video-box {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .video-box video {
+        height: auto;
+        aspect-ratio: 9 / 16;
+    }
+
+    .title,
+    .description {
+        text-align: center;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .content img {
+        max-width: 100%;
+    }
+
+   #menu-button {
+        position: absolute;   /* siempre visible */
+        top: 15px;
+        right: 15px;
+        z-index: 2000;     /* encima de todo */
+    }
+
+    .dropdown {
+        width: 90%;
+        right: 5%;
+        top: 60px;
+        position: fixed;   /* evita que se esconda */
+        z-index: 1999;     /* justo debajo del botón */
+    }
+
+    #link-foto {
+        top: 15px;
+        left: 15px;
+    }
+
+    #foto-pequeña {
+        width: 40px;
+    }
 }
