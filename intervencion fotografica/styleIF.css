@@ -171,7 +171,7 @@ header {
     }
 
     .dropdown-content a {
-        text-align: left;
+        text-align: right;
     }
 
     #link-foto {
@@ -186,3 +186,4 @@ header {
         height: 40px;
     }
 }
+
