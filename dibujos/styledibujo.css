@@ -108,4 +108,84 @@ header {
     width: 50px; /* Ajusta el tamaño según lo necesites */
     height: auto;
     border-radius: 50%; /* Esto hace que la imagen sea circular */
+
+}
+
+
+
+/* Media queries para móviles */
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px 10px;
+    }
+
+    #menu-button {
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 10000;
+    }
+
+    .dropdown {
+        width: 90vw;
+        max-width: 300px;
+        right: 5vw;
+    }
+
+    .container {
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .image-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .gallery-container {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .photo-container {
+        width: 100%;
+        padding: 20px;
+        box-shadow: none;
+        border-radius: 8px;
+    }
+
+    .photo-container img {
+        border-radius: 8px;
+        margin-bottom: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    h3 {
+        font-size: 1.1em;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-size: 0.95em;
+    }
+
+    #link-foto {
+        top: 10px;
+        left: 10px;
+        width: 40px;
+        height: auto;
+    }
+
+    #foto-pequeña {
+        width: 40px;
+        height: auto;
+    }
 }
