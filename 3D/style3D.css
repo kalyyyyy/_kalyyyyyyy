@@ -136,7 +136,7 @@ h3 {
     .container {
         flex-direction: column;
         align-items: center;
-        margin: 5px 0;
+        margin: 10px 0;
     }
 
     .image-container {
@@ -171,3 +171,4 @@ h3 {
         left: 15px;
     }
 }
+
