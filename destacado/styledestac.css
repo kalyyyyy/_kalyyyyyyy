@@ -186,7 +186,7 @@ section {
   }
 
   header {
-    padding: 20px;
+    padding: 10px;
     justify-content: space-between;
   }
 
@@ -264,6 +264,7 @@ section {
     text-align: right;
   }
 }
+
 
 
 
