@@ -114,3 +114,77 @@ p {
     width: 50px; /* Ajusta el tamaño según sea necesario */
     height: auto;
 }
+
+
+
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* Ajusta el padding del body para que no quede pegado */
+    body {
+        padding: 10px;
+    }
+
+    /* El header se adapta bien */
+    header {
+        padding: 10px 5px;
+    }
+
+    /* El botón del menú se mantiene visible, con posición fija */
+    #menu-button {
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 10000;
+    }
+
+    /* El dropdown se ajusta al ancho del móvil y está centrado */
+    .dropdown {
+        width: 90vw;
+        max-width: 300px;
+        right: 5vw;
+    }
+
+    /* Adaptar la galería para dispositivos móviles */
+    .gallery-container {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    /* Contenedor de multimedia ocupa el 100% de ancho */
+    .media-container {
+        width: 100%;
+        padding: 30px 15px; /* Reducir padding para móviles */
+        min-height: auto;
+        box-shadow: none;   /* Opcional: quitar sombra para simplificar */
+    }
+
+    /* El video e imagen dentro se adapatan al ancho */
+    .media-container video,
+    .media-container img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    /* Textos se ajustan un poco */
+    h3 {
+        font-size: 1.1em;
+    }
+    p {
+        font-size: 0.95em;
+    }
+
+    /* Foto pequeña en esquina permanece igual */
+    #link-foto {
+        top: 10px;
+        left: 10px;
+        width: 40px; /* Ajusta si quieres */
+    }
+    #foto-pequeña {
+        width: 40px;
+        height: auto;
+    }
+}
