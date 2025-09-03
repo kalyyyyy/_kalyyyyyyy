@@ -124,4 +124,50 @@ h3 {
     width: 40px; /* Ajusta el tamaño según lo necesites */
     height: auto;
     border-radius: 50%; /* Esto hace que la imagen sea circular */
+
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .image-container {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .gallery-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .photo-container {
+        width: 90%;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    #menu-button {
+        top: 15px;
+        right: 15px;
+    }
+
+    #link-foto {
+        top: 15px;
+        left: 15px;
+    }
 }
